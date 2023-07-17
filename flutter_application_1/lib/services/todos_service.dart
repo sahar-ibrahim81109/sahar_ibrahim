@@ -1,7 +1,5 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_application_1/models/todos_model.dart';
-
-
 class todos_Service{
   String url="https://jsonplaceholder.typicode.com/todos";
 
@@ -15,7 +13,5 @@ class todos_Service{
       todosList.add(data);
     });
     return todosList;
-
-
   }
 }
